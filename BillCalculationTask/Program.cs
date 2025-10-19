@@ -19,6 +19,20 @@
             // 2: 10 people
             // 3: 6 people
             // Commit your changes and add screnshot evidence of your program running to the Readme
+            int numofPeople;
+            int total;
+            Console.WriteLine("Enter Number of People");
+            numofPeople = Convert.ToInt32(Console.ReadLine());
+            if (numofPeople > 6)
+            {
+                total = numofPeople * 15 - 5;
+            }
+else
+            {
+                total = numofPeople * 15;
+            }
+            Console.WriteLine("Your total charge is: " + total);
+
 
         }
     }
